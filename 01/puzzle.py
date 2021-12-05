@@ -3,7 +3,7 @@ import numpy as np
 
 with open('data.txt') as file:
     data = np.array(file.readlines(), dtype=int)
-# data = np.array([199, 200, 208, 210, 200, 207, 240, 269, 260, 263])  # check data
+# data = np.array([199, 200, 208, 210, 200, 207, 240, 269, 260, 263])  # check
 
 # Part I
 increased = sum(np.diff(data) > 0)
